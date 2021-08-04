@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ListPreference
+            android:key="whichcamera"
+            android:dialogTitle="摄像头 Camera"
+            android:entries="@array/camera"
+            android:entryValues="@array/cameraValues"
+            android:title="摄像头 Camera" />
+       <ListPreference
+            android:key="videoquality"
+            android:dialogTitle="视频质量 Quality"
+            android:entries="@array/videoquality"
+            android:entryValues="@array/videoqualityValues"
+            android:title="视频质量 Quality" />
+
+        <SwitchPreference
+            android:key="preview"
+            android:title="开启预览Enable Preview" />
+        <SwitchPreference
+            android:key="volumecontrol"
+            android:title="息屏时音量键启动录制"
+            android:summary="Volume Control Record"/>
+
+        <Preference
+            android:key="folder"
+            android:summary="/storage/emulated/0/video/camera"
+            android:title="文件目录 folder" />
+    <!--
+        <Preference
+            android:key="two"
+            android:summary="配置编辑器"
+            android:title="编辑器" />
+        <Preference
+            android:key="three"
+            android:summary="配置全局应用设置"
+            android:title="应用" />
+        <Preference
+            android:key="four"
+            android:summary="配置代码风格"
+            android:title="代码风格" />
+        <Preference
+            android:key="five"
+            android:summary="配置构建运行设置"
+            android:title="构建运行" />
+        <Preference
+            android:key="six"
+            android:summary="配置Dropbox同步设置"
+            android:title="Dropbox" />
+        <Preference
+            android:key="seven"
+            android:summary="配置Git版本控制"
+            android:title="Git版本控制" />
+        <Preference
+            android:key="eight"
+            android:summary="显示法律相关信息"
+            android:title="法律" />
+        <PreferenceCategory android:title="第一组">
+            <CheckBoxPreference
+                android:checked="true"
+                android:title="不再提醒" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="第二组">
+            <EditTextPreference
+                android:capitalize="words"
+                android:defaultValue="abcdefc"
+                android:inputType="textCapWords"
+                android:key="example_text"
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="pref_title_display_name" />
+            <ListPreference
+                android:dialogTitle="城市"
+                android:entries="@array/city"
+                android:entryValues="@array/country"
+                android:title="列表" />
+            <Preference
+                android:summary="么么哒"
+                android:title="Rair" />
+            <SwitchPreference android:title="免打扰" />
+        </PreferenceCategory>
+         -->
+</PreferenceScreen>

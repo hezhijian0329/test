@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">BGVideoRecord</string>
+    <string name="no_permission">没有权限</string>
+
+    <string-array name="camera">
+        <item>前置摄像头 Front</item>
+        <item>后置摄像头 Back</item>
+    </string-array>
+    <string-array name="cameraValues">
+        <item>f</item>
+        <item>b</item>
+    </string-array>
+
+    <string-array name="videoquality">
+        <item>高质量 High</item>
+        <item>中等质量 Medium</item>
+        <item>720P</item>
+        <item>低质量 Low</item>
+    </string-array>
+    <string-array name="videoqualityValues">
+        <item>high</item>
+        <item>mid</item>
+        <item>720p</item>
+        <item>low</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>北京</item>
+        <item>上海</item>
+        <item>广州</item>
+        <item>深圳</item>
+    </string-array>
+    <string-array name="country">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+</resources>
